@@ -1,0 +1,12 @@
+{
+    "name": "smstw/php-code-sniffer",
+    "authors": [
+        {
+            "name": "leo",
+            "email": "leo@bm-sms.com.tw"
+        }
+    ],
+    "require": {
+
+    }
+}
