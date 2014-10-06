@@ -1,16 +1,14 @@
 <?php
 
-namespace SMSTW\Joomla;
-
 /**
- * Class PHP_CodeSniffer
+ * Class SMS_Joomla_PHP_CodeSniffer
  */
-class PHP_CodeSniffer
+class SMS_Joomla_PHP_CodeSniffer
 {
 	public static function addInstalledStandardPaths()
 	{
-		// __DIR__ = /vendor/smstw/php-code-sniffer/Joomla/src/SMSTW/Joomla
-		$rootPath = realpath(__DIR__ . '/../../../../../../../');
+		// __DIR__ = /vendor/smstw/php-code-sniffer/Joomla/
+		$rootPath = realpath(__DIR__ . '/../../../../');
 
 		if (!is_dir($rootPath . '/vendor'))
 		{
