@@ -16,7 +16,7 @@ if (!is_dir($vendorDir))
 {
 	$baseDir = realpath(__DIR__ . '/../');
 	$vendorDir = $baseDir . '/vendor';
-	$csPath = realpath(dirname($baseDir));
+	$csPath = dirname($baseDir);
 
 	if (!is_dir($vendorDir))
 	{
