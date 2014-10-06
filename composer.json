@@ -11,7 +11,12 @@
 		"squizlabs/php_codesniffer": "1.5.4"
 	},
 	"license": "GPL-2.0+",
-	"bin": [
-		"scripts/sms-phpcs-init"
-	]
+	"scripts": {
+		"post-install-cmd": [
+			"php scripts/sms-phpcs-init"
+		],
+		"post-update-cmd": [
+			"php scripts/sms-phpcs-init"
+		]
+	}
 }
