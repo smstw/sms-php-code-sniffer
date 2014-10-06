@@ -10,18 +10,9 @@
 	"require": {
 		"squizlabs/php_codesniffer": "1.*"
 	},
-	"target-dir": "Joomla",
 	"autoload": {
-		"psr-0": {
-			"": "src/"
-		}
-	},
-	"scripts": {
-		"post-install-cmd": [
-			"SMSTW\\Joomla\\PHP_CodeSniffer::addInstalledStandardPaths"
-		],
-		"post-update-cmd": [
-			"SMSTW\\Joomla\\PHP_CodeSniffer::addInstalledStandardPaths"
+		"classmap": [
+			"Joomla/SMS_Joomla_PHP_CodeSniffer.php"
 		]
 	},
 	"license": "GPL-2.0+"
