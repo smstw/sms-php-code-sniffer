@@ -1,13 +1,28 @@
 {
-    "name": "smstw/php-code-sniffer",
-    "authors": [
-        {
-            "name": "leo",
-            "email": "leo@bm-sms.com.tw"
-        }
-    ],
-    "require": {
-
-    },
-    "target-dir": "Joomla"
+	"name": "smstw/php-code-sniffer",
+	"description": "SMSTW PHP CodeSniffer",
+	"authors": [
+		{
+			"name": "leo",
+			"email": "leo@bm-sms.com.tw"
+		}
+	],
+	"require": {
+		"squizlabs/php_codesniffer": "1.*"
+	},
+	"target-dir": "Joomla",
+	"autoload": {
+		"psr-0": {
+			"": "src/"
+		}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"SMSTW\\Joomla\\PHP_CodeSniffer::addInstalledStandardPaths"
+		],
+		"post-update-cmd": [
+			"SMSTW\\Joomla\\PHP_CodeSniffer::addInstalledStandardPaths"
+		]
+	},
+	"license": "GPL-2.0+"
 }
