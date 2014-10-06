@@ -8,13 +8,13 @@ echo 'Initializing PHP_CodeSniffer "installed_paths"......' . PHP_EOL;
 echo PHP_EOL;
 
 // Script path: "./vendor/bin/sms-phpcs-init" or "./scripts/sms-phpcs-init"
-$baseDir = __DIR__ . '/../../../../';
+$baseDir = realpath(__DIR__ . '/../../../../');
 $vendorDir = $baseDir . '/vendor';
 $csPath = realpath($vendorDir . '/smstw/php-code-sniffer');
 
 if (!is_dir($vendorDir))
 {
-	$baseDir = __DIR__ . '/../';
+	$baseDir = realpath(__DIR__ . '/../');
 	$vendorDir = $baseDir . '/vendor';
 	$csPath = realpath(dirname($baseDir));
 
