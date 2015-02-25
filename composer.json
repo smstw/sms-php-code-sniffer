@@ -1,22 +1,5 @@
 {
-	"name": "smstw/php-code-sniffer",
-	"description": "SMSTW PHP CodeSniffer",
-	"authors": [
-		{
-			"name": "leo",
-			"email": "leo@bm-sms.com.tw"
-		}
-	],
-	"require": {
-		"squizlabs/php_codesniffer": "1.5.4"
-	},
-	"license": "GPL-2.0+",
-	"scripts": {
-		"post-install-cmd": [
-			"php scripts/sms-phpcs-init"
-		],
-		"post-update-cmd": [
-			"php scripts/sms-phpcs-init"
-		]
-	}
+    "require-dev": {
+        "squizlabs/php_codesniffer": "1.5.4"
+    }
 }
