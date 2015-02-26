@@ -1,11 +1,10 @@
-Joomla Coding Standards
-=======================
+SMS Taiwan Joomla Coding Standards
+==================================
 
 This repository includes the [Joomla](http://developer.joomla.org) coding standard definition for [PHP Codesniffer](http://pear.php.net/PHP_CodeSniffer) along with a few other helpful resources.  The PHP_CodeSniffer standard will never be 100% accurate, but should be viewed as a strong set of guidelines while writing software for Joomla.
 
 See Joomla coding standards documentation at [http://joomla.github.io/coding-standards/](http://joomla.github.io/coding-standards/)
 
-If you want to contribute and improve this documentation find the source files at [https://github.com/joomla/coding-standards/tree/gh-pages](https://github.com/joomla/coding-standards/tree/gh-pages)
 
 ## Requirements
 
@@ -23,14 +22,14 @@ Installation is as easy as checking out the repository to the correct location w
 
 ### Install the Joomla standard.
 
-	git clone https://github.com/joomla/coding-standards.git `pear config-get php_dir`/PHP/CodeSniffer/Standards/Joomla
+	git clone https://github.com/smstw/sms-php-code-sniffer.git `pear config-get php_dir`/PHP/CodeSniffer/Standards/SMSTWJoomla
 
 ## Running
 
-You can use the installed Joomla standard like:
+You can use the installed SMSTWJoomla standard like:
 
-	phpcs --standard=Joomla path/to/code
+	phpcs --standard=SMSTWJoomla path/to/code
 
 Alternatively if it isn't installed you can still reference it by path like:
 
-	phpcs --standard=path/to/joomla/coding-standards path/to/code
+	phpcs --standard=path/to/sms-php-code-sniffer path/to/code
