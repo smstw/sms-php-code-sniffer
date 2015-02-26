@@ -21,8 +21,8 @@ if (class_exists('PHP_CodeSniffer_CommentParser_ClassCommentParser', true) === f
 
 require_once 'FileCommentSniff.php';
 
-if (class_exists('Joomla_Sniffs_Commenting_FileCommentSniff', true) === false) {
-    $error = 'Class Joomla_Sniffs_Commenting_FileCommentSniff not found';
+if (class_exists('SMSTWJoomla_Sniffs_Commenting_FileCommentSniff', true) === false) {
+    $error = 'Class SMSTWJoomla_Sniffs_Commenting_FileCommentSniff not found';
     throw new PHP_CodeSniffer_Exception($error);
 }
 
@@ -49,7 +49,7 @@ if (class_exists('Joomla_Sniffs_Commenting_FileCommentSniff', true) === false) {
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_Commenting_ClassCommentSniff extends Joomla_Sniffs_Commenting_FileCommentSniff
+class SMSTWJoomla_Sniffs_Commenting_ClassCommentSniff extends SMSTWJoomla_Sniffs_Commenting_FileCommentSniff
 {
 
 

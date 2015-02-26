@@ -43,7 +43,7 @@ if (class_exists('PHP_CodeSniffer_CommentParser_ClassCommentParser', true) === f
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-class Joomla_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**
@@ -351,7 +351,7 @@ class Joomla_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_Sniff
      */
     protected function processTags($commentStart, $commentEnd)
     {
-        $docBlock    = (get_class($this) === 'Joomla_Sniffs_Commenting_FileCommentSniff') ? 'file' : 'class';
+        $docBlock    = (get_class($this) === 'SMSTWJoomla_Sniffs_Commenting_FileCommentSniff') ? 'file' : 'class';
         $foundTags   = $this->commentParser->getTagOrders();
         $orderIndex  = 0;
         $indentation = array();

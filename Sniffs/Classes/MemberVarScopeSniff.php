@@ -38,7 +38,7 @@ if(class_exists('PHP_CodeSniffer_Standards_AbstractVariableSniff', true) === fal
  * @version   Release: 1.3.0RC1
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_Classes_MemberVarScopeSniff extends PHP_CodeSniffer_Standards_AbstractVariableSniff
+class SMSTWJoomla_Sniffs_Classes_MemberVarScopeSniff extends PHP_CodeSniffer_Standards_AbstractVariableSniff
 {
     /**
      * Processes the function tokens within the class.

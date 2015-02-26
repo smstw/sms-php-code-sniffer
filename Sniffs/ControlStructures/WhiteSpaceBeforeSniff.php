@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_ControlStructures_WhiteSpaceBeforeSniff.
+ * SMSTWJoomla_Sniffs_ControlStructures_WhiteSpaceBeforeSniff.
  *
  * PHP version 5
  *
@@ -48,7 +48,7 @@
  *
  * @since      1.0
  */
-class Joomla_Sniffs_ControlStructures_WhiteSpaceBeforeSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_ControlStructures_WhiteSpaceBeforeSniff implements PHP_CodeSniffer_Sniff
 {
 	/**
 	 * Registers the tokens that this sniff wants to listen for.

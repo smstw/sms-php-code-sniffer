@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Joomla">
+<ruleset name="SMSTWJoomla">
 	<description>The Joomla coding standard.</description>
 
 	<!-- Include all sniffs in an external standard directory -->

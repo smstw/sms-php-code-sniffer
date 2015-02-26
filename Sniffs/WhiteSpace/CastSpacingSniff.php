@@ -28,7 +28,7 @@
  * @version   Release: 1.3.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_WhiteSpace_CastSpacingSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_WhiteSpace_CastSpacingSniff implements PHP_CodeSniffer_Sniff
 {
 
 

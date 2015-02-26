@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_Files_IncludingFileSniff.
+ * SMSTWJoomla_Sniffs_Files_IncludingFileSniff.
  *
  * PHP version 5
  *
@@ -15,7 +15,7 @@
  */
 
 /**
- * Joomla_Sniffs_Files_IncludingFileSniff.
+ * SMSTWJoomla_Sniffs_Files_IncludingFileSniff.
  *
  * Checks that the include_once is used in conditional situations, and
  * require_once is used elsewhere. Also checks that brackets do not surround
@@ -30,7 +30,7 @@
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_Files_IncludingFileSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_Files_IncludingFileSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

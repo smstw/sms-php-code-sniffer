@@ -30,11 +30,11 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractPatternSniff', true) === fal
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_ControlStructures_ControlSignatureSniff extends PHP_CodeSniffer_Standards_AbstractPatternSniff
+class SMSTWJoomla_Sniffs_ControlStructures_ControlSignatureSniff extends PHP_CodeSniffer_Standards_AbstractPatternSniff
 {
 
 	/**
-	 * Constructs a Joomla_Sniffs_ControlStructures_ControlSignatureSniff.
+	 * Constructs a SMSTWJoomla_Sniffs_ControlStructures_ControlSignatureSniff.
 	 */
 	public function __construct()
 	{

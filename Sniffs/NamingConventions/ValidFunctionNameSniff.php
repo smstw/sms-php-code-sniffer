@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_NamingConventions_ValidFunctionNameSniff.
+ * SMSTWJoomla_Sniffs_NamingConventions_ValidFunctionNameSniff.
  *
  * PHP version 5
  *
@@ -19,7 +19,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false
 }
 
 /**
- * Joomla_Sniffs_NamingConventions_ValidFunctionNameSniff.
+ * SMSTWJoomla_Sniffs_NamingConventions_ValidFunctionNameSniff.
  *
  * Ensures method names are correct depending on whether they are public
  * or private, and that functions are named correctly.
@@ -33,7 +33,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_NamingConventions_ValidFunctionNameSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
+class SMSTWJoomla_Sniffs_NamingConventions_ValidFunctionNameSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
 {
 
     /**
@@ -67,7 +67,7 @@ class Joomla_Sniffs_NamingConventions_ValidFunctionNameSniff extends PHP_CodeSni
 
 
     /**
-     * Constructs a Joomla_Sniffs_NamingConventions_ValidFunctionNameSniff.
+     * Constructs a SMSTWJoomla_Sniffs_NamingConventions_ValidFunctionNameSniff.
      */
     public function __construct()
     {

@@ -14,9 +14,9 @@
  * have any parameters.
  *
  * @category  Classes
- * @package   Joomla.CodeSniffer
+ * @package   SMSTWJoomla.CodeSniffer
  */
-class Joomla_Sniffs_Classes_InstantiateNewClassesSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_Classes_InstantiateNewClassesSniff implements PHP_CodeSniffer_Sniff
 {
     /**
      * Registers the token types that this sniff wishes to listen to.

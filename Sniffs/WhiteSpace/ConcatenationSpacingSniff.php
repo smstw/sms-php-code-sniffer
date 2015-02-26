@@ -30,7 +30,7 @@
  * @version   Release: 1.3.0RC1
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_WhiteSpace_ConcatenationSpacingSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_WhiteSpace_ConcatenationSpacingSniff implements PHP_CodeSniffer_Sniff
 {
 	/**
 	 * Returns an array of tokens this test wants to listen for.

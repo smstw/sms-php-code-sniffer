@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_NamingConventions_ValidVariableNameSniff.
+ * SMSTWJoomla_Sniffs_NamingConventions_ValidVariableNameSniff.
  *
  * PHP version 5
  *
@@ -19,7 +19,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractVariableSniff', true) === fa
 }
 
 /**
- * Joomla_Sniffs_NamingConventions_ValidVariableNameSniff.
+ * SMSTWJoomla_Sniffs_NamingConventions_ValidVariableNameSniff.
  *
  * Checks the naming of member variables.
  *
@@ -31,7 +31,7 @@ if (class_exists('PHP_CodeSniffer_Standards_AbstractVariableSniff', true) === fa
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_CodeSniffer_Standards_AbstractVariableSniff
+class SMSTWJoomla_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_CodeSniffer_Standards_AbstractVariableSniff
 {
 
 

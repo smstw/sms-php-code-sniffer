@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_WhiteSpace_ObjectOperatorIndentSniff.
+ * SMSTWJoomla_Sniffs_WhiteSpace_ObjectOperatorIndentSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Joomla_Sniffs_WhiteSpace_ObjectOperatorIndentSniff.
+ * SMSTWJoomla_Sniffs_WhiteSpace_ObjectOperatorIndentSniff.
  *
  * Checks that object operators are indented 4 spaces if they are the first
  * thing on a line.
@@ -27,7 +27,7 @@
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_WhiteSpace_ObjectOperatorIndentSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_WhiteSpace_ObjectOperatorIndentSniff implements PHP_CodeSniffer_Sniff
 {
 
 

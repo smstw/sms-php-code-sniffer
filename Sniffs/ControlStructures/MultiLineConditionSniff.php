@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_ControlStructures_MultiLineConditionSniff.
+ * SMSTWJoomla_Sniffs_ControlStructures_MultiLineConditionSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Joomla_Sniffs_ControlStructures_MultiLineConditionSniff.
+ * SMSTWJoomla_Sniffs_ControlStructures_MultiLineConditionSniff.
  *
  * Ensure multi-line IF conditions are defined correctly.
  *
@@ -26,7 +26,7 @@
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_ControlStructures_MultiLineConditionSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_ControlStructures_MultiLineConditionSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

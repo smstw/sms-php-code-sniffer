@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_Functions_FunctionCallSignatureSniff.
+ * SMSTWJoomla_Sniffs_Functions_FunctionCallSignatureSniff.
  *
  * PHP version 5
  *
@@ -15,7 +15,7 @@
  */
 
 /**
- * Joomla_Sniffs_Functions_FunctionCallSignatureSniff.
+ * SMSTWJoomla_Sniffs_Functions_FunctionCallSignatureSniff.
  *
  * @category  PHP
  * @package   PHP_CodeSniffer
@@ -26,7 +26,7 @@
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_Functions_FunctionCallSignatureSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_Functions_FunctionCallSignatureSniff implements PHP_CodeSniffer_Sniff
 {
 
 

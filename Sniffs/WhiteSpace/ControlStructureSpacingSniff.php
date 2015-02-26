@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_WhiteSpace_ControlStructureSpacingSniff.
+ * SMSTWJoomla_Sniffs_WhiteSpace_ControlStructureSpacingSniff.
  *
  * PHP version 5
  *
@@ -29,7 +29,7 @@
  * @link       http://pear.php.net/package/PHP_CodeSniffer
  * @since      12.3
  */
-class Joomla_Sniffs_WhiteSpace_ControlStructureSpacingSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_WhiteSpace_ControlStructureSpacingSniff implements PHP_CodeSniffer_Sniff
 {
 	/**
 	 * A list of tokenizers this sniff supports.

@@ -28,7 +28,7 @@
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_PHP_LowerCaseConstantSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_PHP_LowerCaseConstantSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

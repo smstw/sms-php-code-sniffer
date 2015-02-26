@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_Functions_FunctionDeclarationSniff.
+ * SMSTWJoomla_Sniffs_Functions_FunctionDeclarationSniff.
  *
  * PHP version 5
  *
@@ -14,7 +14,7 @@
  */
 
 /**
- * Joomla_Sniffs_Functions_FunctionDeclarationSniff.
+ * SMSTWJoomla_Sniffs_Functions_FunctionDeclarationSniff.
  *
  * Ensure single and multi-line function declarations are defined correctly.
  *
@@ -26,7 +26,7 @@
  * @version   Release: 1.3.0
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_Functions_FunctionDeclarationSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_Functions_FunctionDeclarationSniff implements PHP_CodeSniffer_Sniff
 {
 
     /**

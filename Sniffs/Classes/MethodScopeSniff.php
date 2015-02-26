@@ -43,7 +43,7 @@ if(class_exists('PHP_CodeSniffer_Standards_AbstractScopeSniff', true) === false)
  * @version   Release: 1.3.0RC1
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_Classes_MethodScopeSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
+class SMSTWJoomla_Sniffs_Classes_MethodScopeSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
 {
     /**
      * Constructs a Squiz_Sniffs_Scope_MethodScopeSniff.

@@ -1,6 +1,6 @@
 <?php
 /**
- * Joomla_Sniffs_ControlStructures_InlineControlStructureSniff.
+ * SMSTWJoomla_Sniffs_ControlStructures_InlineControlStructureSniff.
  *
  * PHP version 5
  *
@@ -15,7 +15,7 @@
  */
 
 /**
- * Joomla_Sniffs_ControlStructures_InlineControlStructureSniff.
+ * SMSTWJoomla_Sniffs_ControlStructures_InlineControlStructureSniff.
  *
  * Verifies that inline control statements are not present.
  *
@@ -28,7 +28,7 @@
  * @version   Release: 1.3.0RC2
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-class Joomla_Sniffs_ControlStructures_InlineControlStructureSniff extends Generic_Sniffs_ControlStructures_InlineControlStructureSniff
+class SMSTWJoomla_Sniffs_ControlStructures_InlineControlStructureSniff extends Generic_Sniffs_ControlStructures_InlineControlStructureSniff
 {
 
     /**

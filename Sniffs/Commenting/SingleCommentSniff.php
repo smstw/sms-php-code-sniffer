@@ -1,6 +1,6 @@
 <?php
 
-class Joomla_Sniffs_Commenting_SingleCommentSniff implements PHP_CodeSniffer_Sniff
+class SMSTWJoomla_Sniffs_Commenting_SingleCommentSniff implements PHP_CodeSniffer_Sniff
 {
 	/**
 	 * Returns the token types that this sniff is interested in.
