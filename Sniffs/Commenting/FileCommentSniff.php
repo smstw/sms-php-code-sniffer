@@ -49,7 +49,7 @@ class SMSTWJoomla_Sniffs_Commenting_FileCommentSniff implements PHP_CodeSniffer_
     /**
      * The header comment parser for the current file.
      *
-     * @var PHP_CodeSniffer_Comment_Parser_ClassCommentParser
+     * @var PHP_CodeSniffer_CommentParser_ClassCommentParser
      */
     protected $commentParser = null;
 

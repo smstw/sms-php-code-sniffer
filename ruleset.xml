@@ -7,12 +7,6 @@
 	<!-- Include some additional sniffs from the Generic standard -->
 	<rule ref="Generic.CodeAnalysis.UselessOverridingMethod" />
 	<rule ref="Generic.Files.EndFileNewline" />
-	<!-- Use Unix newlines -->
-	<rule ref="Generic.Files.LineEndings">
-		<properties>
-			<property name="eolChar" value="\n" />
-		</properties>
-	</rule>
 	<!-- Lines can be 85 chars long, but never show errors -->
 	<rule ref="Generic.Files.LineLength">
 		<properties>

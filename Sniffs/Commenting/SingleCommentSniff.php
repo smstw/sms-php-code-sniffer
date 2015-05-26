@@ -61,22 +61,23 @@ class SMSTWJoomla_Sniffs_Commenting_SingleCommentSniff implements PHP_CodeSniffe
 
 		/*
 		 * New lines should always start with an upper case letter unless
-		*    The line is a continuation of a complete sentence
-		*    The term is code and is case sensitive.(@todo)
-		*/
+		 * - The line is a continuation of a complete sentence
+		 * - The term is code and is case sensitive.(@todo)
+		 * - The term is Chinese
+		 */
+		$firstCharacter = strlen($comment) > 3 ? mb_substr($comment, 3, 1, 'UTF8') : '';
 
-		if(isset($comment{3}) && $comment{3} != strtoupper($comment{3}))
+		if (!empty($firstCharacter) && 1 == strlen($firstCharacter) && !preg_match('/[A-Z]/', $firstCharacter))
 		{
 			// Comment does not start with an upper case letter
-
 			$previous = $phpcsFile->findPrevious(T_COMMENT, $stackPtr - 1);
 
-			if($tokens[$previous]['line'] == $tokens[$stackPtr]['line'] - 1)
+			if ($tokens[$previous]['line'] == $tokens[$stackPtr]['line'] - 1)
 			{
 				// There is a comment on the previous line.
 				$test = trim($tokens[$previous]['content']);
 
-				if('.' != substr($test, strlen($test) - 1))
+				if ('.' != substr($test, strlen($test) - 1))
 				{
 					// If the previous comment does not end with a full stop "." we
 					// assume a sentence spanned over multiple lines.
