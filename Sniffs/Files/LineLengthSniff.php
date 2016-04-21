@@ -36,7 +36,7 @@ class SMSTWJoomla_Sniffs_Files_LineLengthSniff implements PHP_CodeSniffer_Sniff
      *
      * @var int
      */
-    public $lineLimit = 120;
+    public $lineLimit = 125;
 
     /**
      * The limit that the length of a line must not exceed.
@@ -105,6 +105,7 @@ class SMSTWJoomla_Sniffs_Files_LineLengthSniff implements PHP_CodeSniffer_Sniff
         }
         $lineLength = ($tokens[$stackPtr]['column'] + $tokens[$stackPtr]['length'] - 1);
         // Record metrics for common line length groupings.
+        /*
         if ($lineLength <= 80) {
             $phpcsFile->recordMetric($stackPtr, 'Line length', '80 or less');
         } else if ($lineLength <= 120) {
@@ -114,6 +115,7 @@ class SMSTWJoomla_Sniffs_Files_LineLengthSniff implements PHP_CodeSniffer_Sniff
         } else {
             $phpcsFile->recordMetric($stackPtr, 'Line length', '151 or more');
         }
+        */
         if ($this->absoluteLineLimit > 0
             && $lineLength > $this->absoluteLineLimit
         ) {
