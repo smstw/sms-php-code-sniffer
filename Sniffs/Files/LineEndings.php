@@ -1,6 +1,6 @@
 <?php
 /**
- * SMSTWJoomla_Sniffs_Files_IncludingFileSniff.
+ * SMSTWJoomla_Sniffs_Files_LineEndingsSniff.
  *
  * PHP version 5
  *
